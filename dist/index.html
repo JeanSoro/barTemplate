@@ -16,7 +16,7 @@
 
 <body>
 
-    <header>
+    <header id="home">
         <div class="container">
             <!-- hamburger -->
             <div class="hamburger-menu">
@@ -25,12 +25,32 @@
             </div>
             <!-- end of hamburger -->
             <!-- logo -->
-            <nav>
-                <a href="#">
-                    <img src="img/logo.png" alt="">
+            <nav class="d-flex align-items-center justify-content-center">
+                <a href="index.html">
+                    <img src="img/logo.png" class="img-fluid" alt="">
                 </a>
+                <ul class="nav-list text-center p-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Our Stars</a>
+                    </li>
+                </ul>
             </nav>
             <!-- end of logo -->
+            <div class="hero-text w-100 text-white px-2 px-sm-0">
+                <h1 class="display-4">Welcome</h1>
+                <p class="lead mb-4">Good Drinks like you ve never tasted before!</p>
+                <a class="btn px-5 mr-2" href="#">Explore</a>
+                <a class="btn px-5 ml-2" href="#">Find Location</a>
+            </div>
         </div>
     </header>
 
